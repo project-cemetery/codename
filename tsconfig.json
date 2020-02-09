@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "lib": ["es2017", "es2019", "DOM"],
+    "module": "commonjs",
+    "declaration": false,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "esModuleInterop": true,
+    "sourceMap": false,
+    "removeComments": true,
+    "strictBindCallApply": true,
+    "noLib": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es6",
+    "outDir": "./dist",
+    "baseUrl": ".",
+    "paths": {
+      "&codename/*": ["./src/*"]
+    }
+  },
+  "include": ["src/**/*", "example/**/*"],
+  "exclude": ["node_modules"]
+}
